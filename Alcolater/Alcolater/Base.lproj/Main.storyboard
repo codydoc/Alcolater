@@ -26,7 +26,7 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="???" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TkW-fd-Nr7">
-                                <rect key="frame" x="31" y="177" width="538" height="21"/>
+                                <rect key="frame" x="265" y="177" width="70" height="21"/>
                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="17"/>
                                 <color key="textColor" red="0.12941177189350128" green="0.53333336114883423" blue="0.60000002384185791" alpha="1" colorSpace="deviceRGB"/>
                                 <nil key="highlightedColor"/>
@@ -43,6 +43,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <constraints>
+                            <constraint firstItem="TkW-fd-Nr7" firstAttribute="width" secondItem="e7i-Z5-vXW" secondAttribute="width" id="4hp-yE-Cfp"/>
                             <constraint firstItem="sn2-2G-twh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7Qk-Fd-Z0c"/>
                             <constraint firstItem="sn2-2G-twh" firstAttribute="centerX" secondItem="FrV-Ub-ne2" secondAttribute="centerX" id="7aC-B2-0xE"/>
                             <constraint firstItem="FrV-Ub-ne2" firstAttribute="top" secondItem="sn2-2G-twh" secondAttribute="bottom" constant="8" id="CkH-EV-wZV"/>
@@ -50,11 +51,18 @@
                             <constraint firstAttribute="trailingMargin" secondItem="TkW-fd-Nr7" secondAttribute="trailing" constant="15" id="Pte-Tg-7Uc"/>
                             <constraint firstItem="e7i-Z5-vXW" firstAttribute="top" secondItem="FrV-Ub-ne2" secondAttribute="bottom" constant="8" id="hP6-JJ-Dwf"/>
                             <constraint firstItem="e7i-Z5-vXW" firstAttribute="centerX" secondItem="FrV-Ub-ne2" secondAttribute="centerX" id="iFd-FE-nu0"/>
+                            <constraint firstItem="TkW-fd-Nr7" firstAttribute="centerX" secondItem="e7i-Z5-vXW" secondAttribute="centerX" id="q48-8S-fyk"/>
                             <constraint firstItem="sn2-2G-twh" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="qGp-kE-ygy"/>
                             <constraint firstItem="TkW-fd-Nr7" firstAttribute="top" secondItem="e7i-Z5-vXW" secondAttribute="bottom" constant="51" id="qQB-Ob-OrZ"/>
                             <constraint firstItem="sn2-2G-twh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="sgj-fl-oYr"/>
                             <constraint firstItem="sn2-2G-twh" firstAttribute="width" secondItem="FrV-Ub-ne2" secondAttribute="width" id="vhX-U0-UXe"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Ghb-8j-4Qy"/>
+                                <exclude reference="Pte-Tg-7Uc"/>
+                            </mask>
+                        </variation>
                         <connections>
                             <outletCollection property="gestureRecognizers" destination="zW0-g8-KYa" appends="YES" id="5Bl-8a-ZhQ"/>
                         </connections>
