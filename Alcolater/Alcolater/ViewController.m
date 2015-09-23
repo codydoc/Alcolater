@@ -38,6 +38,11 @@
     
     NSLog(@"Slider value changed to %f",sender.value);
     [self.beerPercentTextField resignFirstResponder];
+    NSString *sliderVal = [NSString stringWithFormat:@"%f", sender.value];
+    self.navigationItem.title = [[@"Wine (" stringByAppendingString: sliderVal] stringByAppendingString:@")"];
+    
+    
+    
 }
 - (IBAction)buttonPressed:(id)sender {
     
