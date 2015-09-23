@@ -40,7 +40,7 @@
     [self.beerPercentTextField resignFirstResponder];
     NSString *sliderVal = [NSString stringWithFormat:@"%f", sender.value];
     self.navigationItem.title = [[@"Wine (" stringByAppendingString: sliderVal] stringByAppendingString:@")"];
-    
+    [self.tabBarItem setBadgeValue:[NSString stringWithFormat:@"%d", (int) sender.value]];
     
     
 }
