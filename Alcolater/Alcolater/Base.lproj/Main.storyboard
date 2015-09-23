@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TdD-xy-ebd">
-                                <rect key="frame" x="248" y="60" width="105" height="73"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TdD-xy-ebd">
+                                <rect key="frame" x="248" y="104" width="105" height="73"/>
                                 <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="50"/>
                                 <state key="normal" title="Wine">
                                     <color key="titleColor" red="0.86274516582489014" green="0.090196080505847931" blue="0.31764706969261169" alpha="1" colorSpace="deviceRGB"/>
@@ -27,8 +27,8 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="JIu-Dx-ftG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OxF-LM-vTF">
-                                <rect key="frame" x="219.5" y="153" width="162" height="77"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OxF-LM-vTF">
+                                <rect key="frame" x="219" y="197" width="162" height="77"/>
                                 <fontDescription key="fontDescription" name="SnellRoundhand" family="Snell Roundhand" pointSize="51"/>
                                 <state key="normal" title="Whiskey">
                                     <color key="titleColor" red="0.95686280727386475" green="0.69411766529083252" blue="0.16862745583057404" alpha="1" colorSpace="deviceRGB"/>
